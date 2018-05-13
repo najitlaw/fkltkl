@@ -1,0 +1,2409 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:canadian_parts
+LIBS:keyboard_parts
+LIBS:fktkl-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TEENSY2.0 U1
+U 1 1 5AF749E7
+P 2050 6250
+F 0 "U1" H 2050 6200 60  0000 C CNN
+F 1 "TEENSY2.0" H 2050 6300 60  0000 C CNN
+F 2 "jan_footprints:Teensy_20_wo_front_text" H 2050 6250 60  0001 C CNN
+F 3 "" H 2050 6250 60  0000 C CNN
+	1    2050 6250
+	1    0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 5AF7521C
+P 1850 2250
+F 0 "D2" H 1850 2350 50  0000 C CNN
+F 1 "D" H 1850 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1850 2250 50  0001 C CNN
+F 3 "" H 1850 2250 50  0001 C CNN
+	1    1850 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K2
+U 1 1 5AF75261
+P 1600 2050
+F 0 "K2" H 1650 2150 50  0000 L CNN
+F 1 "Tab" H 1600 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 1600 2250 50  0001 C CNN
+F 3 "" H 1600 2250 50  0001 C CNN
+	1    1600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5AF75862
+P 1850 1650
+F 0 "D1" H 1850 1750 50  0000 C CNN
+F 1 "D" H 1850 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1850 1650 50  0001 C CNN
+F 3 "" H 1850 1650 50  0001 C CNN
+	1    1850 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K1
+U 1 1 5AF75868
+P 1600 1450
+F 0 "K1" H 1650 1550 50  0000 L CNN
+F 1 "Esc" H 1600 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 1600 1650 50  0001 C CNN
+F 3 "" H 1600 1650 50  0001 C CNN
+	1    1600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D4
+U 1 1 5AF75D58
+P 1850 3450
+F 0 "D4" H 1850 3550 50  0000 C CNN
+F 1 "D" H 1850 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1850 3450 50  0001 C CNN
+F 3 "" H 1850 3450 50  0001 C CNN
+	1    1850 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K4
+U 1 1 5AF75D5E
+P 1600 3250
+F 0 "K4" H 1650 3350 50  0000 L CNN
+F 1 "Shift" H 1600 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_225" H 1600 3450 50  0001 C CNN
+F 3 "" H 1600 3450 50  0001 C CNN
+	1    1600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5AF75D66
+P 1850 2850
+F 0 "D3" H 1850 2950 50  0000 C CNN
+F 1 "D" H 1850 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1850 2850 50  0001 C CNN
+F 3 "" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K3
+U 1 1 5AF75D6C
+P 1600 2750
+F 0 "K3" H 1650 2850 50  0000 L CNN
+F 1 "Caps" H 1550 2700 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_175" H 1600 2950 50  0001 C CNN
+F 3 "" H 1600 2950 50  0001 C CNN
+	1    1600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 5AF761FF
+P 1850 4050
+F 0 "D5" H 1850 4150 50  0000 C CNN
+F 1 "D" H 1850 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 1850 4050 50  0001 C CNN
+F 3 "" H 1850 4050 50  0001 C CNN
+	1    1850 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K5
+U 1 1 5AF76205
+P 1600 3850
+F 0 "K5" H 1650 3950 50  0000 L CNN
+F 1 "Ctrl" H 1600 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 1600 4050 50  0001 C CNN
+F 3 "" H 1600 4050 50  0001 C CNN
+	1    1600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D7
+U 1 1 5AF7816C
+P 2500 2250
+F 0 "D7" H 2500 2350 50  0000 C CNN
+F 1 "D" H 2500 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2500 2250 50  0001 C CNN
+F 3 "" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K7
+U 1 1 5AF78172
+P 2250 2050
+F 0 "K7" H 2300 2150 50  0000 L CNN
+F 1 "Q" H 2250 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2250 2250 50  0001 C CNN
+F 3 "" H 2250 2250 50  0001 C CNN
+	1    2250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D6
+U 1 1 5AF78178
+P 2500 1650
+F 0 "D6" H 2500 1750 50  0000 C CNN
+F 1 "D" H 2500 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2500 1650 50  0001 C CNN
+F 3 "" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K6
+U 1 1 5AF7817E
+P 2250 1450
+F 0 "K6" H 2300 1550 50  0000 L CNN
+F 1 "1" H 2250 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2250 1650 50  0001 C CNN
+F 3 "" H 2250 1650 50  0001 C CNN
+	1    2250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D9
+U 1 1 5AF78184
+P 2500 3450
+F 0 "D9" H 2500 3550 50  0000 C CNN
+F 1 "D" H 2500 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2500 3450 50  0001 C CNN
+F 3 "" H 2500 3450 50  0001 C CNN
+	1    2500 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K9
+U 1 1 5AF7818A
+P 2250 3250
+F 0 "K9" H 2300 3350 50  0000 L CNN
+F 1 "Z" H 2250 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D8
+U 1 1 5AF78190
+P 2500 2850
+F 0 "D8" H 2500 2950 50  0000 C CNN
+F 1 "D" H 2500 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2500 2850 50  0001 C CNN
+F 3 "" H 2500 2850 50  0001 C CNN
+	1    2500 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K8
+U 1 1 5AF78196
+P 2250 2650
+F 0 "K8" H 2300 2750 50  0000 L CNN
+F 1 "A" H 2250 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2250 2850 50  0001 C CNN
+F 3 "" H 2250 2850 50  0001 C CNN
+	1    2250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D10
+U 1 1 5AF7819C
+P 2500 4050
+F 0 "D10" H 2500 4150 50  0000 C CNN
+F 1 "D" H 2500 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 2500 4050 50  0001 C CNN
+F 3 "" H 2500 4050 50  0001 C CNN
+	1    2500 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K10
+U 1 1 5AF781A2
+P 2250 3850
+F 0 "K10" H 2300 3950 50  0000 L CNN
+F 1 "Super" H 2250 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2250 4050 50  0001 C CNN
+F 3 "" H 2250 4050 50  0001 C CNN
+	1    2250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D12
+U 1 1 5AF7B18F
+P 3150 2250
+F 0 "D12" H 3150 2350 50  0000 C CNN
+F 1 "D" H 3150 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 2250 50  0001 C CNN
+F 3 "" H 3150 2250 50  0001 C CNN
+	1    3150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K12
+U 1 1 5AF7B195
+P 2900 2050
+F 0 "K12" H 2950 2150 50  0000 L CNN
+F 1 "W" H 2900 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2900 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D11
+U 1 1 5AF7B19B
+P 3150 1650
+F 0 "D11" H 3150 1750 50  0000 C CNN
+F 1 "D" H 3150 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 1650 50  0001 C CNN
+F 3 "" H 3150 1650 50  0001 C CNN
+	1    3150 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K11
+U 1 1 5AF7B1A1
+P 2900 1450
+F 0 "K11" H 2950 1550 50  0000 L CNN
+F 1 "2" H 2900 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2900 1650 50  0001 C CNN
+F 3 "" H 2900 1650 50  0001 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D14
+U 1 1 5AF7B1A7
+P 3150 3450
+F 0 "D14" H 3150 3550 50  0000 C CNN
+F 1 "D" H 3150 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 3450 50  0001 C CNN
+F 3 "" H 3150 3450 50  0001 C CNN
+	1    3150 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K14
+U 1 1 5AF7B1AD
+P 2900 3250
+F 0 "K14" H 2950 3350 50  0000 L CNN
+F 1 "X" H 2900 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2900 3450 50  0001 C CNN
+F 3 "" H 2900 3450 50  0001 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D13
+U 1 1 5AF7B1B3
+P 3150 2850
+F 0 "D13" H 3150 2950 50  0000 C CNN
+F 1 "D" H 3150 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 2850 50  0001 C CNN
+F 3 "" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K13
+U 1 1 5AF7B1B9
+P 2900 2650
+F 0 "K13" H 2950 2750 50  0000 L CNN
+F 1 "S" H 2900 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2900 2850 50  0001 C CNN
+F 3 "" H 2900 2850 50  0001 C CNN
+	1    2900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D15
+U 1 1 5AF7B1BF
+P 3150 4050
+F 0 "D15" H 3150 4150 50  0000 C CNN
+F 1 "D" H 3150 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3150 4050 50  0001 C CNN
+F 3 "" H 3150 4050 50  0001 C CNN
+	1    3150 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K15
+U 1 1 5AF7B1C5
+P 2900 3850
+F 0 "K15" H 2950 3950 50  0000 L CNN
+F 1 "Alt" H 2900 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 2900 4050 50  0001 C CNN
+F 3 "" H 2900 4050 50  0001 C CNN
+	1    2900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D17
+U 1 1 5AF7B1DB
+P 3800 2250
+F 0 "D17" H 3800 2350 50  0000 C CNN
+F 1 "D" H 3800 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K17
+U 1 1 5AF7B1E1
+P 3550 2050
+F 0 "K17" H 3600 2150 50  0000 L CNN
+F 1 "E" H 3550 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3550 2250 50  0001 C CNN
+F 3 "" H 3550 2250 50  0001 C CNN
+	1    3550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D16
+U 1 1 5AF7B1E7
+P 3800 1650
+F 0 "D16" H 3800 1750 50  0000 C CNN
+F 1 "D" H 3800 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3800 1650 50  0001 C CNN
+F 3 "" H 3800 1650 50  0001 C CNN
+	1    3800 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K16
+U 1 1 5AF7B1ED
+P 3550 1450
+F 0 "K16" H 3600 1550 50  0000 L CNN
+F 1 "3" H 3550 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3550 1650 50  0001 C CNN
+F 3 "" H 3550 1650 50  0001 C CNN
+	1    3550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D19
+U 1 1 5AF7B1F3
+P 3800 3450
+F 0 "D19" H 3800 3550 50  0000 C CNN
+F 1 "D" H 3800 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3800 3450 50  0001 C CNN
+F 3 "" H 3800 3450 50  0001 C CNN
+	1    3800 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K19
+U 1 1 5AF7B1F9
+P 3550 3250
+F 0 "K19" H 3600 3350 50  0000 L CNN
+F 1 "C" H 3550 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3550 3450 50  0001 C CNN
+F 3 "" H 3550 3450 50  0001 C CNN
+	1    3550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D18
+U 1 1 5AF7B1FF
+P 3800 2850
+F 0 "D18" H 3800 2950 50  0000 C CNN
+F 1 "D" H 3800 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 3800 2850 50  0001 C CNN
+F 3 "" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K18
+U 1 1 5AF7B205
+P 3550 2650
+F 0 "K18" H 3600 2750 50  0000 L CNN
+F 1 "D" H 3550 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3550 2850 50  0001 C CNN
+F 3 "" H 3550 2850 50  0001 C CNN
+	1    3550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D21
+U 1 1 5AF7B6B1
+P 4450 2250
+F 0 "D21" H 4450 2350 50  0000 C CNN
+F 1 "D" H 4450 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4450 2250 50  0001 C CNN
+F 3 "" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K21
+U 1 1 5AF7B6B7
+P 4200 2050
+F 0 "K21" H 4250 2150 50  0000 L CNN
+F 1 "R" H 4200 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4200 2250 50  0001 C CNN
+F 3 "" H 4200 2250 50  0001 C CNN
+	1    4200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D20
+U 1 1 5AF7B6BD
+P 4450 1650
+F 0 "D20" H 4450 1750 50  0000 C CNN
+F 1 "D" H 4450 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4450 1650 50  0001 C CNN
+F 3 "" H 4450 1650 50  0001 C CNN
+	1    4450 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K20
+U 1 1 5AF7B6C3
+P 4200 1450
+F 0 "K20" H 4250 1550 50  0000 L CNN
+F 1 "4" H 4200 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4200 1650 50  0001 C CNN
+F 3 "" H 4200 1650 50  0001 C CNN
+	1    4200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D23
+U 1 1 5AF7B6C9
+P 4450 3450
+F 0 "D23" H 4450 3550 50  0000 C CNN
+F 1 "D" H 4450 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4450 3450 50  0001 C CNN
+F 3 "" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K23
+U 1 1 5AF7B6CF
+P 4200 3250
+F 0 "K23" H 4250 3350 50  0000 L CNN
+F 1 "V" H 4200 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4200 3450 50  0001 C CNN
+F 3 "" H 4200 3450 50  0001 C CNN
+	1    4200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D22
+U 1 1 5AF7B6D5
+P 4450 2850
+F 0 "D22" H 4450 2950 50  0000 C CNN
+F 1 "D" H 4450 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 4450 2850 50  0001 C CNN
+F 3 "" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K22
+U 1 1 5AF7B6DB
+P 4200 2650
+F 0 "K22" H 4250 2750 50  0000 L CNN
+F 1 "F" H 4200 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4200 2850 50  0001 C CNN
+F 3 "" H 4200 2850 50  0001 C CNN
+	1    4200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D25
+U 1 1 5AF7B6FD
+P 5100 2250
+F 0 "D25" H 5100 2350 50  0000 C CNN
+F 1 "D" H 5100 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5100 2250 50  0001 C CNN
+F 3 "" H 5100 2250 50  0001 C CNN
+	1    5100 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K25
+U 1 1 5AF7B703
+P 4850 2050
+F 0 "K25" H 4900 2150 50  0000 L CNN
+F 1 "T" H 4850 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 2250 50  0001 C CNN
+F 3 "" H 4850 2250 50  0001 C CNN
+	1    4850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D24
+U 1 1 5AF7B709
+P 5100 1650
+F 0 "D24" H 5100 1750 50  0000 C CNN
+F 1 "D" H 5100 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5100 1650 50  0001 C CNN
+F 3 "" H 5100 1650 50  0001 C CNN
+	1    5100 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K24
+U 1 1 5AF7B70F
+P 4850 1450
+F 0 "K24" H 4900 1550 50  0000 L CNN
+F 1 "5" H 4850 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 1650 50  0001 C CNN
+F 3 "" H 4850 1650 50  0001 C CNN
+	1    4850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D27
+U 1 1 5AF7B715
+P 5100 3450
+F 0 "D27" H 5100 3550 50  0000 C CNN
+F 1 "D" H 5100 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5100 3450 50  0001 C CNN
+F 3 "" H 5100 3450 50  0001 C CNN
+	1    5100 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K27
+U 1 1 5AF7B71B
+P 4850 3250
+F 0 "K27" H 4900 3350 50  0000 L CNN
+F 1 "B" H 4850 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 3450 50  0001 C CNN
+F 3 "" H 4850 3450 50  0001 C CNN
+	1    4850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D26
+U 1 1 5AF7B721
+P 5100 2850
+F 0 "D26" H 5100 2950 50  0000 C CNN
+F 1 "D" H 5100 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5100 2850 50  0001 C CNN
+F 3 "" H 5100 2850 50  0001 C CNN
+	1    5100 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K26
+U 1 1 5AF7B727
+P 4850 2650
+F 0 "K26" H 4900 2750 50  0000 L CNN
+F 1 "G" H 4850 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 2850 50  0001 C CNN
+F 3 "" H 4850 2850 50  0001 C CNN
+	1    4850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D29
+U 1 1 5AF7B749
+P 5750 2250
+F 0 "D29" H 5750 2350 50  0000 C CNN
+F 1 "D" H 5750 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5750 2250 50  0001 C CNN
+F 3 "" H 5750 2250 50  0001 C CNN
+	1    5750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K29
+U 1 1 5AF7B74F
+P 5500 2050
+F 0 "K29" H 5550 2150 50  0000 L CNN
+F 1 "Y" H 5500 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D28
+U 1 1 5AF7B755
+P 5750 1650
+F 0 "D28" H 5750 1750 50  0000 C CNN
+F 1 "D" H 5750 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5750 1650 50  0001 C CNN
+F 3 "" H 5750 1650 50  0001 C CNN
+	1    5750 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K28
+U 1 1 5AF7B75B
+P 5500 1450
+F 0 "K28" H 5550 1550 50  0000 L CNN
+F 1 "6" H 5500 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5500 1650 50  0001 C CNN
+F 3 "" H 5500 1650 50  0001 C CNN
+	1    5500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D31
+U 1 1 5AF7B761
+P 5750 3450
+F 0 "D31" H 5750 3550 50  0000 C CNN
+F 1 "D" H 5750 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5750 3450 50  0001 C CNN
+F 3 "" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K31
+U 1 1 5AF7B767
+P 5500 3250
+F 0 "K31" H 5550 3350 50  0000 L CNN
+F 1 "N" H 5500 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5500 3450 50  0001 C CNN
+F 3 "" H 5500 3450 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D30
+U 1 1 5AF7B76D
+P 5750 2850
+F 0 "D30" H 5750 2950 50  0000 C CNN
+F 1 "D" H 5750 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5750 2850 50  0001 C CNN
+F 3 "" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K30
+U 1 1 5AF7B773
+P 5500 2650
+F 0 "K30" H 5550 2750 50  0000 L CNN
+F 1 "H" H 5500 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D32
+U 1 1 5AF7B779
+P 5750 4050
+F 0 "D32" H 5750 4150 50  0000 C CNN
+F 1 "D" H 5750 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5750 4050 50  0001 C CNN
+F 3 "" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K32
+U 1 1 5AF7B77F
+P 5500 3850
+F 0 "K32" H 5550 3950 50  0000 L CNN
+F 1 "Space" H 5500 3790 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-7U-ReversedStabilizers-NoLED" H 5500 4050 50  0001 C CNN
+F 3 "" H 5500 4050 50  0001 C CNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D34
+U 1 1 5AF7B795
+P 6400 2250
+F 0 "D34" H 6400 2350 50  0000 C CNN
+F 1 "D" H 6400 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K34
+U 1 1 5AF7B79B
+P 6150 2050
+F 0 "K34" H 6200 2150 50  0000 L CNN
+F 1 "U" H 6150 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6150 2250 50  0001 C CNN
+F 3 "" H 6150 2250 50  0001 C CNN
+	1    6150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D33
+U 1 1 5AF7B7A1
+P 6400 1650
+F 0 "D33" H 6400 1750 50  0000 C CNN
+F 1 "D" H 6400 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6400 1650 50  0001 C CNN
+F 3 "" H 6400 1650 50  0001 C CNN
+	1    6400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K33
+U 1 1 5AF7B7A7
+P 6150 1450
+F 0 "K33" H 6200 1550 50  0000 L CNN
+F 1 "7" H 6150 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6150 1650 50  0001 C CNN
+F 3 "" H 6150 1650 50  0001 C CNN
+	1    6150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D36
+U 1 1 5AF7B7AD
+P 6400 3450
+F 0 "D36" H 6400 3550 50  0000 C CNN
+F 1 "D" H 6400 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6400 3450 50  0001 C CNN
+F 3 "" H 6400 3450 50  0001 C CNN
+	1    6400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K36
+U 1 1 5AF7B7B3
+P 6150 3250
+F 0 "K36" H 6200 3350 50  0000 L CNN
+F 1 "M" H 6150 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6150 3450 50  0001 C CNN
+F 3 "" H 6150 3450 50  0001 C CNN
+	1    6150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D35
+U 1 1 5AF7B7B9
+P 6400 2850
+F 0 "D35" H 6400 2950 50  0000 C CNN
+F 1 "D" H 6400 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 6400 2850 50  0001 C CNN
+F 3 "" H 6400 2850 50  0001 C CNN
+	1    6400 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K35
+U 1 1 5AF7B7BF
+P 6150 2650
+F 0 "K35" H 6200 2750 50  0000 L CNN
+F 1 "J" H 6150 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6150 2850 50  0001 C CNN
+F 3 "" H 6150 2850 50  0001 C CNN
+	1    6150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D38
+U 1 1 5AF8B038
+P 7050 2250
+F 0 "D38" H 7050 2350 50  0000 C CNN
+F 1 "D" H 7050 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7050 2250 50  0001 C CNN
+F 3 "" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K38
+U 1 1 5AF8B03E
+P 6800 2050
+F 0 "K38" H 6850 2150 50  0000 L CNN
+F 1 "I" H 6800 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6800 2250 50  0001 C CNN
+F 3 "" H 6800 2250 50  0001 C CNN
+	1    6800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D37
+U 1 1 5AF8B044
+P 7050 1650
+F 0 "D37" H 7050 1750 50  0000 C CNN
+F 1 "D" H 7050 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7050 1650 50  0001 C CNN
+F 3 "" H 7050 1650 50  0001 C CNN
+	1    7050 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K37
+U 1 1 5AF8B04A
+P 6800 1450
+F 0 "K37" H 6850 1550 50  0000 L CNN
+F 1 "8" H 6800 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6800 1650 50  0001 C CNN
+F 3 "" H 6800 1650 50  0001 C CNN
+	1    6800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D40
+U 1 1 5AF8B050
+P 7050 3450
+F 0 "D40" H 7050 3550 50  0000 C CNN
+F 1 "D" H 7050 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7050 3450 50  0001 C CNN
+F 3 "" H 7050 3450 50  0001 C CNN
+	1    7050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K40
+U 1 1 5AF8B056
+P 6800 3250
+F 0 "K40" H 6850 3350 50  0000 L CNN
+F 1 "," H 6800 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6800 3450 50  0001 C CNN
+F 3 "" H 6800 3450 50  0001 C CNN
+	1    6800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D39
+U 1 1 5AF8B05C
+P 7050 2850
+F 0 "D39" H 7050 2950 50  0000 C CNN
+F 1 "D" H 7050 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7050 2850 50  0001 C CNN
+F 3 "" H 7050 2850 50  0001 C CNN
+	1    7050 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K39
+U 1 1 5AF8B062
+P 6800 2650
+F 0 "K39" H 6850 2750 50  0000 L CNN
+F 1 "K" H 6800 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6800 2850 50  0001 C CNN
+F 3 "" H 6800 2850 50  0001 C CNN
+	1    6800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D42
+U 1 1 5AF8B084
+P 7700 2250
+F 0 "D42" H 7700 2350 50  0000 C CNN
+F 1 "D" H 7700 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7700 2250 50  0001 C CNN
+F 3 "" H 7700 2250 50  0001 C CNN
+	1    7700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K42
+U 1 1 5AF8B08A
+P 7450 2050
+F 0 "K42" H 7500 2150 50  0000 L CNN
+F 1 "O" H 7450 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7450 2250 50  0001 C CNN
+F 3 "" H 7450 2250 50  0001 C CNN
+	1    7450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D41
+U 1 1 5AF8B090
+P 7700 1650
+F 0 "D41" H 7700 1750 50  0000 C CNN
+F 1 "D" H 7700 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7700 1650 50  0001 C CNN
+F 3 "" H 7700 1650 50  0001 C CNN
+	1    7700 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K41
+U 1 1 5AF8B096
+P 7450 1450
+F 0 "K41" H 7500 1550 50  0000 L CNN
+F 1 "9" H 7450 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7450 1650 50  0001 C CNN
+F 3 "" H 7450 1650 50  0001 C CNN
+	1    7450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D44
+U 1 1 5AF8B09C
+P 7700 3450
+F 0 "D44" H 7700 3550 50  0000 C CNN
+F 1 "D" H 7700 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7700 3450 50  0001 C CNN
+F 3 "" H 7700 3450 50  0001 C CNN
+	1    7700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K44
+U 1 1 5AF8B0A2
+P 7450 3250
+F 0 "K44" H 7500 3350 50  0000 L CNN
+F 1 "." H 7450 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7450 3450 50  0001 C CNN
+F 3 "" H 7450 3450 50  0001 C CNN
+	1    7450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D43
+U 1 1 5AF8B0A8
+P 7700 2850
+F 0 "D43" H 7700 2950 50  0000 C CNN
+F 1 "D" H 7700 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7700 2850 50  0001 C CNN
+F 3 "" H 7700 2850 50  0001 C CNN
+	1    7700 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K43
+U 1 1 5AF8B0AE
+P 7450 2650
+F 0 "K43" H 7500 2750 50  0000 L CNN
+F 1 "L" H 7450 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7450 2850 50  0001 C CNN
+F 3 "" H 7450 2850 50  0001 C CNN
+	1    7450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D46
+U 1 1 5AF8B0D0
+P 8350 2250
+F 0 "D46" H 8350 2350 50  0000 C CNN
+F 1 "D" H 8350 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8350 2250 50  0001 C CNN
+F 3 "" H 8350 2250 50  0001 C CNN
+	1    8350 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K46
+U 1 1 5AF8B0D6
+P 8100 2050
+F 0 "K46" H 8150 2150 50  0000 L CNN
+F 1 "P" H 8100 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8100 2250 50  0001 C CNN
+F 3 "" H 8100 2250 50  0001 C CNN
+	1    8100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D45
+U 1 1 5AF8B0DC
+P 8350 1650
+F 0 "D45" H 8350 1750 50  0000 C CNN
+F 1 "D" H 8350 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8350 1650 50  0001 C CNN
+F 3 "" H 8350 1650 50  0001 C CNN
+	1    8350 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K45
+U 1 1 5AF8B0E2
+P 8100 1450
+F 0 "K45" H 8150 1550 50  0000 L CNN
+F 1 "0" H 8100 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8100 1650 50  0001 C CNN
+F 3 "" H 8100 1650 50  0001 C CNN
+	1    8100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D48
+U 1 1 5AF8B0E8
+P 8350 3450
+F 0 "D48" H 8350 3550 50  0000 C CNN
+F 1 "D" H 8350 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8350 3450 50  0001 C CNN
+F 3 "" H 8350 3450 50  0001 C CNN
+	1    8350 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K48
+U 1 1 5AF8B0EE
+P 8100 3250
+F 0 "K48" H 8150 3350 50  0000 L CNN
+F 1 "/" H 8100 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8100 3450 50  0001 C CNN
+F 3 "" H 8100 3450 50  0001 C CNN
+	1    8100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D47
+U 1 1 5AF8B0F4
+P 8350 2850
+F 0 "D47" H 8350 2950 50  0000 C CNN
+F 1 "D" H 8350 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8350 2850 50  0001 C CNN
+F 3 "" H 8350 2850 50  0001 C CNN
+	1    8350 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K47
+U 1 1 5AF8B0FA
+P 8100 2650
+F 0 "K47" H 8150 2750 50  0000 L CNN
+F 1 ";" H 8100 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8100 2850 50  0001 C CNN
+F 3 "" H 8100 2850 50  0001 C CNN
+	1    8100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D49
+U 1 1 5AF8B100
+P 8350 4050
+F 0 "D49" H 8350 4150 50  0000 C CNN
+F 1 "D" H 8350 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8350 4050 50  0001 C CNN
+F 3 "" H 8350 4050 50  0001 C CNN
+	1    8350 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K49
+U 1 1 5AF8B106
+P 8100 3850
+F 0 "K49" H 8150 3950 50  0000 L CNN
+F 1 "Ctrl" H 8100 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 8100 4050 50  0001 C CNN
+F 3 "" H 8100 4050 50  0001 C CNN
+	1    8100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D51
+U 1 1 5AF8BE6C
+P 9000 2250
+F 0 "D51" H 9000 2350 50  0000 C CNN
+F 1 "D" H 9000 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9000 2250 50  0001 C CNN
+F 3 "" H 9000 2250 50  0001 C CNN
+	1    9000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K51
+U 1 1 5AF8BE72
+P 8750 2050
+F 0 "K51" H 8800 2150 50  0000 L CNN
+F 1 "[" H 8750 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8750 2250 50  0001 C CNN
+F 3 "" H 8750 2250 50  0001 C CNN
+	1    8750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D50
+U 1 1 5AF8BE78
+P 9000 1650
+F 0 "D50" H 9000 1750 50  0000 C CNN
+F 1 "D" H 9000 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9000 1650 50  0001 C CNN
+F 3 "" H 9000 1650 50  0001 C CNN
+	1    9000 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K50
+U 1 1 5AF8BE7E
+P 8750 1450
+F 0 "K50" H 8800 1550 50  0000 L CNN
+F 1 "-" H 8750 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8750 1650 50  0001 C CNN
+F 3 "" H 8750 1650 50  0001 C CNN
+	1    8750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D52
+U 1 1 5AF8BE90
+P 9000 2850
+F 0 "D52" H 9000 2950 50  0000 C CNN
+F 1 "D" H 9000 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9000 2850 50  0001 C CNN
+F 3 "" H 9000 2850 50  0001 C CNN
+	1    9000 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K52
+U 1 1 5AF8BE96
+P 8750 2650
+F 0 "K52" H 8800 2750 50  0000 L CNN
+F 1 "'" H 8750 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8750 2850 50  0001 C CNN
+F 3 "" H 8750 2850 50  0001 C CNN
+	1    8750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D54
+U 1 1 5AF8BEB8
+P 9650 2250
+F 0 "D54" H 9650 2350 50  0000 C CNN
+F 1 "D" H 9650 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9650 2250 50  0001 C CNN
+F 3 "" H 9650 2250 50  0001 C CNN
+	1    9650 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K54
+U 1 1 5AF8BEBE
+P 9400 2050
+F 0 "K54" H 9450 2150 50  0000 L CNN
+F 1 "]" H 9400 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9400 2250 50  0001 C CNN
+F 3 "" H 9400 2250 50  0001 C CNN
+	1    9400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D53
+U 1 1 5AF8BEC4
+P 9650 1650
+F 0 "D53" H 9650 1750 50  0000 C CNN
+F 1 "D" H 9650 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9650 1650 50  0001 C CNN
+F 3 "" H 9650 1650 50  0001 C CNN
+	1    9650 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K53
+U 1 1 5AF8BECA
+P 9400 1450
+F 0 "K53" H 9450 1550 50  0000 L CNN
+F 1 "=" H 9400 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9400 1650 50  0001 C CNN
+F 3 "" H 9400 1650 50  0001 C CNN
+	1    9400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D55
+U 1 1 5AF8BED0
+P 9650 3450
+F 0 "D55" H 9650 3550 50  0000 C CNN
+F 1 "D" H 9650 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9650 3450 50  0001 C CNN
+F 3 "" H 9650 3450 50  0001 C CNN
+	1    9650 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K55
+U 1 1 5AF8BED6
+P 9400 3250
+F 0 "K55" H 9450 3350 50  0000 L CNN
+F 1 "Shift" H 9400 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_175" H 9400 3450 50  0001 C CNN
+F 3 "" H 9400 3450 50  0001 C CNN
+	1    9400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D56
+U 1 1 5AF8BEE8
+P 9650 4050
+F 0 "D56" H 9650 4150 50  0000 C CNN
+F 1 "D" H 9650 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 9650 4050 50  0001 C CNN
+F 3 "" H 9650 4050 50  0001 C CNN
+	1    9650 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K56
+U 1 1 5AF8BEEE
+P 9400 3850
+F 0 "K56" H 9450 3950 50  0000 L CNN
+F 1 "Win" H 9400 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9400 4050 50  0001 C CNN
+F 3 "" H 9400 4050 50  0001 C CNN
+	1    9400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D57
+U 1 1 5AF8BF10
+P 10300 1700
+F 0 "D57" H 10300 1800 50  0000 C CNN
+F 1 "D" H 10300 1600 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10300 1700 50  0001 C CNN
+F 3 "" H 10300 1700 50  0001 C CNN
+	1    10300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K57
+U 1 1 5AF8BF16
+P 10050 1450
+F 0 "K57" H 10100 1550 50  0000 L CNN
+F 1 "Yen" H 10050 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10050 1650 50  0001 C CNN
+F 3 "" H 10050 1650 50  0001 C CNN
+	1    10050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D59
+U 1 1 5AF8BF50
+P 10950 2250
+F 0 "D59" H 10950 2350 50  0000 C CNN
+F 1 "D" H 10950 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10950 2250 50  0001 C CNN
+F 3 "" H 10950 2250 50  0001 C CNN
+	1    10950 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K60
+U 1 1 5AF8BF56
+P 10700 2050
+F 0 "K60" H 10750 2150 50  0000 L CNN
+F 1 "\\" H 10700 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 10700 2250 50  0001 C CNN
+F 3 "" H 10700 2250 50  0001 C CNN
+	1    10700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D58
+U 1 1 5AF8BF5C
+P 10950 1650
+F 0 "D58" H 10950 1750 50  0000 C CNN
+F 1 "D" H 10950 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10950 1650 50  0001 C CNN
+F 3 "" H 10950 1650 50  0001 C CNN
+	1    10950 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K59
+U 1 1 5AF8BF62
+P 10700 1450
+F 0 "K59" H 10750 1550 50  0000 L CNN
+F 1 "BS2" H 10700 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_200" H 10700 1650 50  0001 C CNN
+F 3 "" H 10700 1650 50  0001 C CNN
+	1    10700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D61
+U 1 1 5AF8BF68
+P 10950 3450
+F 0 "D61" H 10950 3550 50  0000 C CNN
+F 1 "D" H 10950 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10950 3450 50  0001 C CNN
+F 3 "" H 10950 3450 50  0001 C CNN
+	1    10950 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K62
+U 1 1 5AF8BF6E
+P 10700 3250
+F 0 "K62" H 10750 3350 50  0000 L CNN
+F 1 "Fn" H 10700 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10700 3450 50  0001 C CNN
+F 3 "" H 10700 3450 50  0001 C CNN
+	1    10700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D60
+U 1 1 5AF8BF74
+P 10950 2850
+F 0 "D60" H 10950 2950 50  0000 C CNN
+F 1 "D" H 10950 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10950 2850 50  0001 C CNN
+F 3 "" H 10950 2850 50  0001 C CNN
+	1    10950 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K61
+U 1 1 5AF8BF7A
+P 10700 2650
+F 0 "K61" H 10750 2750 50  0000 L CNN
+F 1 "Enter" H 10700 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_225" H 10700 2850 50  0001 C CNN
+F 3 "" H 10700 2850 50  0001 C CNN
+	1    10700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D62
+U 1 1 5AF8BF80
+P 10950 4050
+F 0 "D62" H 10950 4150 50  0000 C CNN
+F 1 "D" H 10950 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 10950 4050 50  0001 C CNN
+F 3 "" H 10950 4050 50  0001 C CNN
+	1    10950 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K63
+U 1 1 5AF8BF86
+P 10700 3850
+F 0 "K63" H 10750 3950 50  0000 L CNN
+F 1 "AltGr" H 10700 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 10700 4050 50  0001 C CNN
+F 3 "" H 10700 4050 50  0001 C CNN
+	1    10700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D64
+U 1 1 5AF8BF9C
+P 11600 2250
+F 0 "D64" H 11600 2350 50  0000 C CNN
+F 1 "D" H 11600 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11600 2250 50  0001 C CNN
+F 3 "" H 11600 2250 50  0001 C CNN
+	1    11600 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K65
+U 1 1 5AF8BFA2
+P 11350 2050
+F 0 "K65" H 11400 2150 50  0000 L CNN
+F 1 "Del" H 11350 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11350 2250 50  0001 C CNN
+F 3 "" H 11350 2250 50  0001 C CNN
+	1    11350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D63
+U 1 1 5AF8BFA8
+P 11600 1650
+F 0 "D63" H 11600 1750 50  0000 C CNN
+F 1 "D" H 11600 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11600 1650 50  0001 C CNN
+F 3 "" H 11600 1650 50  0001 C CNN
+	1    11600 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K64
+U 1 1 5AF8BFAE
+P 11350 1450
+F 0 "K64" H 11400 1550 50  0000 L CNN
+F 1 "Ins" H 11350 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11350 1650 50  0001 C CNN
+F 3 "" H 11350 1650 50  0001 C CNN
+	1    11350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D66
+U 1 1 5AF8BFB4
+P 11600 3450
+F 0 "D66" H 11600 3550 50  0000 C CNN
+F 1 "D" H 11600 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11600 3450 50  0001 C CNN
+F 3 "" H 11600 3450 50  0001 C CNN
+	1    11600 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K67
+U 1 1 5AF8BFBA
+P 11350 3250
+F 0 "K67" H 11400 3350 50  0000 L CNN
+F 1 "C3" H 11350 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11350 3450 50  0001 C CNN
+F 3 "" H 11350 3450 50  0001 C CNN
+	1    11350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D65
+U 1 1 5AF8BFC0
+P 11600 2850
+F 0 "D65" H 11600 2950 50  0000 C CNN
+F 1 "D" H 11600 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11600 2850 50  0001 C CNN
+F 3 "" H 11600 2850 50  0001 C CNN
+	1    11600 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K66
+U 1 1 5AF8BFC6
+P 11350 2650
+F 0 "K66" H 11400 2750 50  0000 L CNN
+F 1 "C0" H 11350 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11350 2850 50  0001 C CNN
+F 3 "" H 11350 2850 50  0001 C CNN
+	1    11350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D67
+U 1 1 5AF8BFCC
+P 11600 4050
+F 0 "D67" H 11600 4150 50  0000 C CNN
+F 1 "D" H 11600 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 11600 4050 50  0001 C CNN
+F 3 "" H 11600 4050 50  0001 C CNN
+	1    11600 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K68
+U 1 1 5AF8BFD2
+P 11350 3850
+F 0 "K68" H 11400 3950 50  0000 L CNN
+F 1 "Left" H 11350 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11350 4050 50  0001 C CNN
+F 3 "" H 11350 4050 50  0001 C CNN
+	1    11350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D69
+U 1 1 5AF8BFE8
+P 12250 2250
+F 0 "D69" H 12250 2350 50  0000 C CNN
+F 1 "D" H 12250 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12250 2250 50  0001 C CNN
+F 3 "" H 12250 2250 50  0001 C CNN
+	1    12250 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K70
+U 1 1 5AF8BFEE
+P 12000 2050
+F 0 "K70" H 12050 2150 50  0000 L CNN
+F 1 "End" H 12000 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12000 2250 50  0001 C CNN
+F 3 "" H 12000 2250 50  0001 C CNN
+	1    12000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D68
+U 1 1 5AF8BFF4
+P 12250 1650
+F 0 "D68" H 12250 1750 50  0000 C CNN
+F 1 "D" H 12250 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12250 1650 50  0001 C CNN
+F 3 "" H 12250 1650 50  0001 C CNN
+	1    12250 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K69
+U 1 1 5AF8BFFA
+P 12000 1450
+F 0 "K69" H 12050 1550 50  0000 L CNN
+F 1 "Home" H 12000 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12000 1650 50  0001 C CNN
+F 3 "" H 12000 1650 50  0001 C CNN
+	1    12000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D71
+U 1 1 5AF8C000
+P 12250 3450
+F 0 "D71" H 12250 3550 50  0000 C CNN
+F 1 "D" H 12250 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12250 3450 50  0001 C CNN
+F 3 "" H 12250 3450 50  0001 C CNN
+	1    12250 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K72
+U 1 1 5AF8C006
+P 12000 3250
+F 0 "K72" H 12050 3350 50  0000 L CNN
+F 1 "Up" H 12000 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12000 3450 50  0001 C CNN
+F 3 "" H 12000 3450 50  0001 C CNN
+	1    12000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D70
+U 1 1 5AF8C00C
+P 12250 2850
+F 0 "D70" H 12250 2950 50  0000 C CNN
+F 1 "D" H 12250 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12250 2850 50  0001 C CNN
+F 3 "" H 12250 2850 50  0001 C CNN
+	1    12250 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K71
+U 1 1 5AF8C012
+P 12000 2650
+F 0 "K71" H 12050 2750 50  0000 L CNN
+F 1 "C1" H 12000 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12000 2850 50  0001 C CNN
+F 3 "" H 12000 2850 50  0001 C CNN
+	1    12000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D72
+U 1 1 5AF8C018
+P 12250 4050
+F 0 "D72" H 12250 4150 50  0000 C CNN
+F 1 "D" H 12250 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12250 4050 50  0001 C CNN
+F 3 "" H 12250 4050 50  0001 C CNN
+	1    12250 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K73
+U 1 1 5AF8C01E
+P 12000 3850
+F 0 "K73" H 12050 3950 50  0000 L CNN
+F 1 "Down" H 12000 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12000 4050 50  0001 C CNN
+F 3 "" H 12000 4050 50  0001 C CNN
+	1    12000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D74
+U 1 1 5AF8C034
+P 12900 2250
+F 0 "D74" H 12900 2350 50  0000 C CNN
+F 1 "D" H 12900 2150 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12900 2250 50  0001 C CNN
+F 3 "" H 12900 2250 50  0001 C CNN
+	1    12900 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K75
+U 1 1 5AF8C03A
+P 12650 2050
+F 0 "K75" H 12700 2150 50  0000 L CNN
+F 1 "PgDwn" H 12650 1990 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12650 2250 50  0001 C CNN
+F 3 "" H 12650 2250 50  0001 C CNN
+	1    12650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D73
+U 1 1 5AF8C040
+P 12900 1650
+F 0 "D73" H 12900 1750 50  0000 C CNN
+F 1 "D" H 12900 1550 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12900 1650 50  0001 C CNN
+F 3 "" H 12900 1650 50  0001 C CNN
+	1    12900 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K74
+U 1 1 5AF8C046
+P 12650 1450
+F 0 "K74" H 12700 1550 50  0000 L CNN
+F 1 "PgUp" H 12650 1390 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12650 1650 50  0001 C CNN
+F 3 "" H 12650 1650 50  0001 C CNN
+	1    12650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D76
+U 1 1 5AF8C04C
+P 12900 3450
+F 0 "D76" H 12900 3550 50  0000 C CNN
+F 1 "D" H 12900 3350 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12900 3450 50  0001 C CNN
+F 3 "" H 12900 3450 50  0001 C CNN
+	1    12900 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K77
+U 1 1 5AF8C052
+P 12650 3250
+F 0 "K77" H 12700 3350 50  0000 L CNN
+F 1 "C4" H 12650 3190 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12650 3450 50  0001 C CNN
+F 3 "" H 12650 3450 50  0001 C CNN
+	1    12650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D75
+U 1 1 5AF8C058
+P 12900 2850
+F 0 "D75" H 12900 2950 50  0000 C CNN
+F 1 "D" H 12900 2750 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12900 2850 50  0001 C CNN
+F 3 "" H 12900 2850 50  0001 C CNN
+	1    12900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K76
+U 1 1 5AF8C05E
+P 12650 2650
+F 0 "K76" H 12700 2750 50  0000 L CNN
+F 1 "C2" H 12650 2590 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12650 2850 50  0001 C CNN
+F 3 "" H 12650 2850 50  0001 C CNN
+	1    12650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D77
+U 1 1 5AF8C064
+P 12900 4050
+F 0 "D77" H 12900 4150 50  0000 C CNN
+F 1 "D" H 12900 3950 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 12900 4050 50  0001 C CNN
+F 3 "" H 12900 4050 50  0001 C CNN
+	1    12900 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K78
+U 1 1 5AF8C06A
+P 12650 3850
+F 0 "K78" H 12700 3950 50  0000 L CNN
+F 1 "Right" H 12650 3790 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12650 4050 50  0001 C CNN
+F 3 "" H 12650 4050 50  0001 C CNN
+	1    12650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push K58
+U 1 1 5B06EAAC
+P 10700 1150
+F 0 "K58" H 10750 1250 50  0000 L CNN
+F 1 "BS1" H 10700 1090 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10700 1350 50  0001 C CNN
+F 3 "" H 10700 1350 50  0001 C CNN
+	1    10700 1150
+	1    0    0    -1  
+$EndComp
+Text Label 1600 5750 1    60   ~ 0
+row0
+Text Label 1800 6750 3    60   ~ 0
+row1
+Text Label 1700 6750 3    60   ~ 0
+row2
+Text Label 1600 6750 3    60   ~ 0
+row3
+Text Label 1500 6750 3    60   ~ 0
+row4
+Text Label 2950 6450 0    60   ~ 0
+col1
+Text Label 2950 6050 0    60   ~ 0
+col2
+Text Label 1500 5750 1    60   ~ 0
+col0
+Text Label 2000 6750 3    60   ~ 0
+col3
+Text Label 2100 6750 3    60   ~ 0
+col4
+Text Label 2200 6750 3    60   ~ 0
+col5
+Text Label 2300 6750 3    60   ~ 0
+col6
+Text Label 2500 5750 1    60   ~ 0
+col7
+Text Label 2400 5750 1    60   ~ 0
+col8
+Text Label 2300 5750 1    60   ~ 0
+col9
+Text Label 2200 5750 1    60   ~ 0
+col10
+Text Label 2100 5750 1    60   ~ 0
+col11
+Text Label 2000 5750 1    60   ~ 0
+col12
+Text Label 1900 5750 1    60   ~ 0
+col13
+Text Label 1800 5750 1    60   ~ 0
+col14
+Text Label 1700 5750 1    60   ~ 0
+col15
+Text Label 2400 6750 3    60   ~ 0
+col16
+$Comp
+L GND #PWR01
+U 1 1 5B0D5D97
+P 1400 5750
+F 0 "#PWR01" H 1400 5500 50  0001 C CNN
+F 1 "GND" H 1400 5600 50  0000 C CNN
+F 2 "" H 1400 5750 50  0001 C CNN
+F 3 "" H 1400 5750 50  0001 C CNN
+	1    1400 5750
+	0    1    1    0   
+$EndComp
+NoConn ~ 2950 6150
+NoConn ~ 2950 6350
+NoConn ~ 1400 6750
+NoConn ~ 2500 6750
+Text Label 1250 1800 2    60   ~ 0
+row0
+Text Label 1250 2400 2    60   ~ 0
+row1
+Text Label 1250 3000 2    60   ~ 0
+row2
+Text Label 1250 3600 2    60   ~ 0
+row3
+Text Label 1250 4200 2    60   ~ 0
+row4
+Text Label 2050 1250 1    60   ~ 0
+col1
+Text Label 2700 1250 1    60   ~ 0
+col2
+Text Label 1400 1250 1    60   ~ 0
+col0
+Text Label 3350 1250 1    60   ~ 0
+col3
+Text Label 4000 1250 1    60   ~ 0
+col4
+Text Label 4650 1250 1    60   ~ 0
+col5
+Text Label 5300 1250 1    60   ~ 0
+col6
+Text Label 5950 1250 1    60   ~ 0
+col7
+Text Label 6600 1250 1    60   ~ 0
+col8
+Text Label 7250 1250 1    60   ~ 0
+col9
+Text Label 7900 1250 1    60   ~ 0
+col10
+Text Label 8550 1250 1    60   ~ 0
+col11
+Text Label 9200 1250 1    60   ~ 0
+col12
+Text Label 10500 950  1    60   ~ 0
+col13
+Text Label 11150 1250 1    60   ~ 0
+col14
+Text Label 11800 1250 1    60   ~ 0
+col15
+Text Label 12450 1250 1    60   ~ 0
+col16
+NoConn ~ 1150 6200
+NoConn ~ 1150 6300
+NoConn ~ 1900 6750
+NoConn ~ 2950 6250
+Wire Wire Line
+	1800 2050 1850 2050
+Wire Wire Line
+	1850 2050 1850 2100
+Wire Wire Line
+	1800 1450 1850 1450
+Wire Wire Line
+	1850 1450 1850 1500
+Wire Wire Line
+	1800 3250 1850 3250
+Wire Wire Line
+	1850 3250 1850 3300
+Wire Wire Line
+	1800 3850 1850 3850
+Wire Wire Line
+	1850 3850 1850 3900
+Connection ~ 1400 1450
+Connection ~ 1400 2050
+Connection ~ 1400 3250
+Connection ~ 1400 3850
+Wire Wire Line
+	2450 2050 2500 2050
+Wire Wire Line
+	2500 2050 2500 2100
+Wire Wire Line
+	2450 1450 2500 1450
+Wire Wire Line
+	2500 1450 2500 1500
+Wire Wire Line
+	2450 3250 2500 3250
+Wire Wire Line
+	2500 3250 2500 3300
+Wire Wire Line
+	2450 2650 2500 2650
+Wire Wire Line
+	2500 2650 2500 2700
+Wire Wire Line
+	2450 3850 2500 3850
+Wire Wire Line
+	2500 3850 2500 3900
+Connection ~ 2050 1450
+Connection ~ 2050 2050
+Connection ~ 2050 2650
+Connection ~ 2050 3250
+Connection ~ 2050 3850
+Wire Wire Line
+	3100 2050 3150 2050
+Wire Wire Line
+	3150 2050 3150 2100
+Wire Wire Line
+	3100 1450 3150 1450
+Wire Wire Line
+	3150 1450 3150 1500
+Wire Wire Line
+	3100 3250 3150 3250
+Wire Wire Line
+	3150 3250 3150 3300
+Wire Wire Line
+	3100 2650 3150 2650
+Wire Wire Line
+	3150 2650 3150 2700
+Wire Wire Line
+	3100 3850 3150 3850
+Wire Wire Line
+	3150 3850 3150 3900
+Connection ~ 2700 1450
+Connection ~ 2700 2050
+Connection ~ 2700 2650
+Connection ~ 2700 3250
+Connection ~ 2700 3850
+Wire Wire Line
+	3750 2050 3800 2050
+Wire Wire Line
+	3800 2050 3800 2100
+Wire Wire Line
+	3750 1450 3800 1450
+Wire Wire Line
+	3800 1450 3800 1500
+Wire Wire Line
+	3750 3250 3800 3250
+Wire Wire Line
+	3800 3250 3800 3300
+Wire Wire Line
+	3750 2650 3800 2650
+Wire Wire Line
+	3800 2650 3800 2700
+Connection ~ 3350 1450
+Connection ~ 3350 2050
+Connection ~ 3350 2650
+Connection ~ 3350 3250
+Wire Wire Line
+	4400 2050 4450 2050
+Wire Wire Line
+	4450 2050 4450 2100
+Wire Wire Line
+	4400 1450 4450 1450
+Wire Wire Line
+	4450 1450 4450 1500
+Wire Wire Line
+	4400 3250 4450 3250
+Wire Wire Line
+	4450 3250 4450 3300
+Wire Wire Line
+	4400 2650 4450 2650
+Wire Wire Line
+	4450 2650 4450 2700
+Connection ~ 4000 1450
+Connection ~ 4000 2050
+Connection ~ 4000 2650
+Connection ~ 4000 3250
+Wire Wire Line
+	5050 2050 5100 2050
+Wire Wire Line
+	5100 2050 5100 2100
+Wire Wire Line
+	5050 1450 5100 1450
+Wire Wire Line
+	5100 1450 5100 1500
+Wire Wire Line
+	5050 3250 5100 3250
+Wire Wire Line
+	5100 3250 5100 3300
+Wire Wire Line
+	5050 2650 5100 2650
+Wire Wire Line
+	5100 2650 5100 2700
+Connection ~ 4650 1450
+Connection ~ 4650 2050
+Connection ~ 4650 2650
+Connection ~ 4650 3250
+Wire Wire Line
+	5700 2050 5750 2050
+Wire Wire Line
+	5750 2050 5750 2100
+Wire Wire Line
+	5700 1450 5750 1450
+Wire Wire Line
+	5750 1450 5750 1500
+Wire Wire Line
+	5700 3250 5750 3250
+Wire Wire Line
+	5750 3250 5750 3300
+Wire Wire Line
+	5700 2650 5750 2650
+Wire Wire Line
+	5750 2650 5750 2700
+Wire Wire Line
+	5700 3850 5750 3850
+Wire Wire Line
+	5750 3850 5750 3900
+Connection ~ 5300 1450
+Connection ~ 5300 2050
+Connection ~ 5300 2650
+Connection ~ 5300 3250
+Connection ~ 5300 3850
+Wire Wire Line
+	6350 2050 6400 2050
+Wire Wire Line
+	6400 2050 6400 2100
+Wire Wire Line
+	6350 1450 6400 1450
+Wire Wire Line
+	6400 1450 6400 1500
+Wire Wire Line
+	6350 3250 6400 3250
+Wire Wire Line
+	6400 3250 6400 3300
+Wire Wire Line
+	6350 2650 6400 2650
+Wire Wire Line
+	6400 2650 6400 2700
+Connection ~ 5950 1450
+Connection ~ 5950 2050
+Connection ~ 5950 2650
+Connection ~ 5950 3250
+Wire Wire Line
+	7000 2050 7050 2050
+Wire Wire Line
+	7050 2050 7050 2100
+Wire Wire Line
+	7000 1450 7050 1450
+Wire Wire Line
+	7050 1450 7050 1500
+Wire Wire Line
+	7000 3250 7050 3250
+Wire Wire Line
+	7050 3250 7050 3300
+Wire Wire Line
+	7000 2650 7050 2650
+Wire Wire Line
+	7050 2650 7050 2700
+Connection ~ 6600 1450
+Connection ~ 6600 2050
+Connection ~ 6600 2650
+Connection ~ 6600 3250
+Wire Wire Line
+	7650 2050 7700 2050
+Wire Wire Line
+	7700 2050 7700 2100
+Wire Wire Line
+	7650 1450 7700 1450
+Wire Wire Line
+	7700 1450 7700 1500
+Wire Wire Line
+	7650 3250 7700 3250
+Wire Wire Line
+	7700 3250 7700 3300
+Wire Wire Line
+	7650 2650 7700 2650
+Wire Wire Line
+	7700 2650 7700 2700
+Connection ~ 7250 1450
+Connection ~ 7250 2050
+Connection ~ 7250 2650
+Connection ~ 7250 3250
+Wire Wire Line
+	8300 2050 8350 2050
+Wire Wire Line
+	8350 2050 8350 2100
+Wire Wire Line
+	8300 1450 8350 1450
+Wire Wire Line
+	8350 1450 8350 1500
+Wire Wire Line
+	8300 3250 8350 3250
+Wire Wire Line
+	8350 3250 8350 3300
+Wire Wire Line
+	8300 2650 8350 2650
+Wire Wire Line
+	8350 2650 8350 2700
+Wire Wire Line
+	8300 3850 8350 3850
+Wire Wire Line
+	8350 3850 8350 3900
+Connection ~ 7900 1450
+Connection ~ 7900 2050
+Connection ~ 7900 2650
+Connection ~ 7900 3250
+Connection ~ 7900 3850
+Wire Wire Line
+	8950 2050 9000 2050
+Wire Wire Line
+	9000 2050 9000 2100
+Wire Wire Line
+	8950 1450 9000 1450
+Wire Wire Line
+	9000 1450 9000 1500
+Wire Wire Line
+	8950 2650 9000 2650
+Wire Wire Line
+	9000 2650 9000 2700
+Connection ~ 8550 1450
+Connection ~ 8550 2050
+Connection ~ 8550 2650
+Wire Wire Line
+	9600 2050 9650 2050
+Wire Wire Line
+	9650 2050 9650 2100
+Wire Wire Line
+	9600 1450 9650 1450
+Wire Wire Line
+	9650 1450 9650 1500
+Wire Wire Line
+	9600 3250 9650 3250
+Wire Wire Line
+	9650 3250 9650 3300
+Wire Wire Line
+	9600 3850 9650 3850
+Wire Wire Line
+	9650 3850 9650 3900
+Connection ~ 9200 1450
+Connection ~ 9200 2050
+Connection ~ 9200 3250
+Connection ~ 9200 3850
+Wire Wire Line
+	10250 1450 10300 1450
+Wire Wire Line
+	10300 1450 10300 1550
+Wire Wire Line
+	10900 2050 10950 2050
+Wire Wire Line
+	10950 2050 10950 2100
+Wire Wire Line
+	10900 1450 10950 1450
+Wire Wire Line
+	10950 1150 10950 1500
+Wire Wire Line
+	10900 3250 10950 3250
+Wire Wire Line
+	10950 3250 10950 3300
+Wire Wire Line
+	10900 2650 10950 2650
+Wire Wire Line
+	10950 2650 10950 2700
+Wire Wire Line
+	10900 3850 10950 3850
+Wire Wire Line
+	10950 3850 10950 3900
+Connection ~ 10500 1450
+Connection ~ 10500 2050
+Connection ~ 10500 2650
+Connection ~ 10500 3250
+Connection ~ 10500 3850
+Wire Wire Line
+	11550 2050 11600 2050
+Wire Wire Line
+	11600 2050 11600 2100
+Wire Wire Line
+	11550 1450 11600 1450
+Wire Wire Line
+	11600 1450 11600 1500
+Wire Wire Line
+	11550 3250 11600 3250
+Wire Wire Line
+	11600 3250 11600 3300
+Wire Wire Line
+	11550 2650 11600 2650
+Wire Wire Line
+	11600 2650 11600 2700
+Wire Wire Line
+	11550 3850 11600 3850
+Wire Wire Line
+	11600 3850 11600 3900
+Connection ~ 11150 1450
+Connection ~ 11150 2050
+Connection ~ 11150 2650
+Connection ~ 11150 3250
+Connection ~ 11150 3850
+Wire Wire Line
+	12200 2050 12250 2050
+Wire Wire Line
+	12250 2050 12250 2100
+Wire Wire Line
+	12200 1450 12250 1450
+Wire Wire Line
+	12250 1450 12250 1500
+Wire Wire Line
+	12200 3250 12250 3250
+Wire Wire Line
+	12250 3250 12250 3300
+Wire Wire Line
+	12200 2650 12250 2650
+Wire Wire Line
+	12250 2650 12250 2700
+Wire Wire Line
+	12200 3850 12250 3850
+Wire Wire Line
+	12250 3850 12250 3900
+Connection ~ 11800 1450
+Connection ~ 11800 2050
+Connection ~ 11800 2650
+Connection ~ 11800 3250
+Connection ~ 11800 3850
+Wire Wire Line
+	12850 2050 12900 2050
+Wire Wire Line
+	12900 2050 12900 2100
+Wire Wire Line
+	12850 1450 12900 1450
+Wire Wire Line
+	12900 1450 12900 1500
+Wire Wire Line
+	12850 3250 12900 3250
+Wire Wire Line
+	12900 3250 12900 3300
+Wire Wire Line
+	12850 2650 12900 2650
+Wire Wire Line
+	12900 2650 12900 2700
+Wire Wire Line
+	12850 3850 12900 3850
+Wire Wire Line
+	12900 3850 12900 3900
+Connection ~ 12450 1450
+Connection ~ 12450 2050
+Connection ~ 12450 2650
+Connection ~ 12450 3250
+Connection ~ 12450 3850
+Wire Wire Line
+	2050 1250 2050 3850
+Wire Wire Line
+	2700 1250 2700 3850
+Wire Wire Line
+	3350 1250 3350 3250
+Wire Wire Line
+	4000 1250 4000 3250
+Wire Wire Line
+	4650 1250 4650 3250
+Wire Wire Line
+	5300 1250 5300 3850
+Wire Wire Line
+	5950 1250 5950 3250
+Wire Wire Line
+	6600 1250 6600 3250
+Wire Wire Line
+	7250 1250 7250 3250
+Wire Wire Line
+	7900 1250 7900 3850
+Wire Wire Line
+	8550 1250 8550 2650
+Wire Wire Line
+	9200 1250 9200 3850
+Wire Wire Line
+	11150 1250 11150 3850
+Wire Wire Line
+	11800 1250 11800 3850
+Wire Wire Line
+	12450 1250 12450 3850
+Wire Wire Line
+	1250 3600 12900 3600
+Connection ~ 12250 3600
+Connection ~ 11600 3600
+Connection ~ 10950 3600
+Connection ~ 9650 3600
+Connection ~ 8350 3600
+Connection ~ 7700 3600
+Connection ~ 7050 3600
+Connection ~ 6400 3600
+Connection ~ 5750 3600
+Connection ~ 5100 3600
+Connection ~ 4450 3600
+Connection ~ 3800 3600
+Connection ~ 3150 3600
+Connection ~ 2500 3600
+Connection ~ 1850 3600
+Wire Wire Line
+	1250 4200 12900 4200
+Connection ~ 1850 4200
+Connection ~ 2500 4200
+Connection ~ 3150 4200
+Connection ~ 5750 4200
+Connection ~ 8350 4200
+Connection ~ 9650 4200
+Connection ~ 10950 4200
+Connection ~ 11600 4200
+Connection ~ 12250 4200
+Wire Wire Line
+	1250 3000 12900 3000
+Connection ~ 1850 3000
+Connection ~ 2500 3000
+Connection ~ 3150 3000
+Connection ~ 3800 3000
+Connection ~ 4450 3000
+Connection ~ 5100 3000
+Connection ~ 5750 3000
+Connection ~ 6400 3000
+Connection ~ 7050 3000
+Connection ~ 7700 3000
+Connection ~ 8350 3000
+Connection ~ 9000 3000
+Connection ~ 10950 3000
+Connection ~ 11600 3000
+Connection ~ 12250 3000
+Connection ~ 12250 2400
+Connection ~ 11600 2400
+Connection ~ 10950 2400
+Connection ~ 9650 2400
+Connection ~ 9000 2400
+Connection ~ 8350 2400
+Connection ~ 7700 2400
+Connection ~ 7050 2400
+Connection ~ 6400 2400
+Connection ~ 5750 2400
+Connection ~ 5100 2400
+Connection ~ 4450 2400
+Connection ~ 3800 2400
+Connection ~ 3150 2400
+Connection ~ 1850 2400
+Wire Wire Line
+	1250 1800 12900 1800
+Connection ~ 1850 1800
+Connection ~ 2500 1800
+Connection ~ 3150 1800
+Connection ~ 3800 1800
+Connection ~ 4450 1800
+Connection ~ 5100 1800
+Connection ~ 5750 1800
+Connection ~ 6400 1800
+Connection ~ 7050 1800
+Connection ~ 7700 1800
+Connection ~ 8350 1800
+Connection ~ 9000 1800
+Connection ~ 9650 1800
+Connection ~ 10950 1800
+Connection ~ 11600 1800
+Connection ~ 12250 1800
+Connection ~ 10950 1450
+Wire Wire Line
+	10900 1150 10950 1150
+Wire Wire Line
+	10500 950  10500 3850
+Connection ~ 10500 1150
+Wire Wire Line
+	9850 2650 9200 2650
+Connection ~ 9200 2650
+Wire Wire Line
+	9850 1450 9850 2650
+Connection ~ 10300 3000
+Wire Wire Line
+	10300 1850 10300 3000
+Wire Wire Line
+	1250 2400 12900 2400
+Connection ~ 2500 2400
+Wire Wire Line
+	1400 1250 1400 3850
+Connection ~ 1400 2750
+$Comp
+L SW_Push K3.1
+U 1 1 5AF8792A
+P 1000 2700
+F 0 "K3.1" H 1050 2800 50  0000 L CNN
+F 1 "SCaps" H 950 2650 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_125" H 1000 2900 50  0001 C CNN
+F 3 "" H 1000 2900 50  0001 C CNN
+	1    1000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2700 1300 2700
+Wire Wire Line
+	1300 2700 1300 2550
+Wire Wire Line
+	1300 2550 1850 2550
+Wire Wire Line
+	800  2700 800  2850
+Wire Wire Line
+	800  2850 1400 2850
+Connection ~ 1400 2850
+Wire Wire Line
+	1850 2550 1850 2700
+Wire Wire Line
+	1800 2750 1800 2700
+Wire Wire Line
+	1800 2700 1850 2700
+$EndSCHEMATC
