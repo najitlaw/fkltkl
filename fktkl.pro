@@ -1,4 +1,4 @@
-update=12/05/2018 19:58:00
+update=14/05/2018 22:19:41
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=contrib
 LibName32=valves
 LibName33=C:/Users/jan/Desktop/PCBs/Keyboard_Files/KiCAD Libs/canadian_schematics/canadian_parts
 LibName34=C:/Users/jan/Desktop/PCBs/Keyboard_Files/KiCAD Libs/canadian_schematics/keyboard_parts
+LibName35=C:/Users/jan/Desktop/PCBs/KiCad_Libs/canadian_schematics/ProMicro
