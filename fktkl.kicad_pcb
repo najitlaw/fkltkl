@@ -3,7 +3,7 @@
   (general
     (links 548)
     (no_connects 0)
-    (area 30.805779 28.7814 378.767951 191.011)
+    (area 30.805779 28.7814 378.767951 126.494201)
     (thickness 1.6)
     (drawings 10)
     (tracks 718)
@@ -435,7 +435,7 @@
       (net 9 "Net-(D5-Pad2)"))
   )
 
-  (module canadian_footprints:Mx_Alps_150 (layer F.Cu) (tedit 5B019A2C) (tstamp 5B0053C9)
+  (module canadian_footprints:Mx_Alps_150 (layer F.Cu) (tedit 5B01DB30) (tstamp 5B0053C9)
     (at 173.81 116.82)
     (descr MXALPS)
     (tags MXALPS)
