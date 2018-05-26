@@ -2382,7 +2382,6 @@ Text Label 9200 4000 2    60   ~ 0
 row5
 Text Label 9200 4100 2    60   ~ 0
 col4
-NoConn ~ 10200 3600
 NoConn ~ 9200 3500
 $Comp
 L VCC #PWR04
@@ -2459,4 +2458,6 @@ Text Label 9750 1350 1    60   ~ 0
 col1
 Text Label 9100 1350 1    60   ~ 0
 col0
+Text Label 10200 3600 0    60   ~ 0
+row7
 $EndSCHEMATC
