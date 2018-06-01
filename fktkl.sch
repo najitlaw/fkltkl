@@ -2075,35 +2075,8 @@ Connection ~ 4050 4150
 $Comp
 L D D30
 U 1 1 5B1ACA93
-P 5150 4350
-F 0 "D30" H 5150 4450 50  0000 C CNN
-F 1 "D" H 5150 4250 50  0000 C CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 5150 4350 50  0001 C CNN
-F 3 "" H 5150 4350 50  0001 C CNN
-	1    5150 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SW_Push K31
-U 1 1 5B1ACA99
-P 4900 4150
-F 0 "K31" H 4950 4250 50  0000 L CNN
-F 1 "Ctrl" H 4900 4090 50  0000 C CNN
-F 2 "canadian_footprints:Mx_Alps_150" H 4900 4350 50  0001 C CNN
-F 3 "" H 4900 4350 50  0001 C CNN
-	1    4900 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 4150 5150 4150
-Wire Wire Line
-	5150 4150 5150 4200
-Connection ~ 4700 4150
-$Comp
-L D D35
-U 1 1 5B1AD372
 P 5800 4350
-F 0 "D35" H 5800 4450 50  0000 C CNN
+F 0 "D30" H 5800 4450 50  0000 C CNN
 F 1 "D" H 5800 4250 50  0000 C CNN
 F 2 "keyboard_parts:D_SOD123_axial" H 5800 4350 50  0001 C CNN
 F 3 "" H 5800 4350 50  0001 C CNN
@@ -2111,12 +2084,12 @@ F 3 "" H 5800 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_Push K36
-U 1 1 5B1AD378
+L SW_Push K31
+U 1 1 5B1ACA99
 P 5550 4150
-F 0 "K36" H 5600 4250 50  0000 L CNN
-F 1 "Super" H 5550 4090 50  0000 C CNN
-F 2 "canadian_footprints:Mx_Alps_100" H 5550 4350 50  0001 C CNN
+F 0 "K31" H 5600 4250 50  0000 L CNN
+F 1 "Ctrl" H 5550 4090 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_150" H 5550 4350 50  0001 C CNN
 F 3 "" H 5550 4350 50  0001 C CNN
 	1    5550 4150
 	1    0    0    -1  
@@ -2125,6 +2098,33 @@ Wire Wire Line
 	5750 4150 5800 4150
 Wire Wire Line
 	5800 4150 5800 4200
+Connection ~ 4700 4150
+$Comp
+L D D35
+U 1 1 5B1AD372
+P 5150 4350
+F 0 "D35" H 5150 4450 50  0000 C CNN
+F 1 "D" H 5150 4250 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push K36
+U 1 1 5B1AD378
+P 4900 4150
+F 0 "K36" H 4950 4250 50  0000 L CNN
+F 1 "Super" H 4900 4090 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4900 4350 50  0001 C CNN
+F 3 "" H 4900 4350 50  0001 C CNN
+	1    4900 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4150 5150 4150
+Wire Wire Line
+	5150 4150 5150 4200
 Connection ~ 5350 4150
 $Comp
 L D D40
